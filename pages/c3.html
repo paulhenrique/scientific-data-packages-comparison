@@ -11,11 +11,43 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/c3.min.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body>
-
+<body class="white grey-text text-darken-3">
+    <div class="container">
+        <div class="fixed-action-btn" id="back_button">
+            <a class="btn-floating btn-large purple hoverable" href="/index.html">
+                <i class="large material-icons">chevron_left</i>
+            </a>
+        </div>
+        <h3>C3js</h3>
+        <a class="btn purple hoverable" href="#helloWorldDiv">Hello World</a>
+        <a class="btn purple hoverable" href="#lineDiv">Line</a>
+        <a class="btn purple hoverable" href="#scatterDiv">Scatter</a>
+        <a class="btn purple hoverable" href="#heatMapDiv">HeatMap</a>
+        <div class="section" id="helloWorldDiv">
+            <h5>Hello World Implementation</h5>
+            <div id="chart"></div>
+        </div>
+        <div class="divider"></div>
+        <div class="section" id="lineDiv">
+            <h5>Line Chart Implementation</h5>
+            <div id="lineChart"></div>
+        </div>
+        <div class="divider"></div>
+        <div class="section" id="scatterDiv">
+            <h5>Scatter Chart Implementation</h5>
+            <div id="scatterChart"></div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="../js/c3.min.js"></script>
+    <script src="../js/c3.js"></script>
 </body>
 
 </html>
