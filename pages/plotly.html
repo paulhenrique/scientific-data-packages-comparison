@@ -11,11 +11,51 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Inserção do Plotly via CND -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 
-<body>
-
+<body class="grey darken-3 white-text">
+    <div class="container">
+        <div class="fixed-action-btn" id="back_button">
+            <a class="btn-floating btn-large purple" href="/index.html">
+                <i class="large material-icons">chevron_left</i>
+            </a>
+        </div>
+        <h3>Plotly JS</h3>
+        <a class="btn purple hoverable" href="#helloWorldDiv">Hello World</a>
+        <a class="btn purple hoverable" href="#responsiveDiv">Responsive</a>
+        <a class="btn purple hoverable" href="#scatterDiv">Scatter</a>
+        <a class="btn purple hoverable" href="#heatMapDiv">HeatMap</a>
+        <div id="helloWorldDiv" class="section">
+            <h5>Hello World Implementation:</h5>
+            <div id="helloWorld" style="width:90%;height:250px;"></div>
+        </div>
+        <div class="divider"></div>
+        <div class="section" id="responsiveDiv">
+            <h5>Responsive Plots:</h5>
+            <div id="responsive"></div>
+        </div>
+        <div class="divider"></div>
+        <div class="section" id="scatterDiv">
+            <h5>Scatter Plot:</h5>
+            <div id="scatter"></div>
+        </div>
+        <div class="divider"></div>
+        <div class="section" id="heatMapDiv">
+            <h5>Heat Maps Plot:</h5>
+            <div id="heatMap"></div>
+        </div>
+        <div class="divider"></div>
+    </div>
+    <!-- Plots go in blank <div> elements. 
+    You can size them in the plot layout,
+    or give the div a size as shown here.
+-->
 </body>
+<script src="../js/plotly.js"></script>
 
 </html>
