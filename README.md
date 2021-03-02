@@ -13,4 +13,4 @@ Os resultados podem ser observados no link: *< removido para avaliação >*
 ## Links
 * [Linkedin](https://www.linkedin.com/in/paulhenriquev/)
 * [Lattes](http://lattes.cnpq.br/1994196517067630)
-* [Netlify](https://musing-wozniak-d8df36.netlify.app/)
+* [Netlify](https://scientific-data-packages-comparison.netlify.app/)
