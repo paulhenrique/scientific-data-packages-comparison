@@ -1,4 +1,6 @@
 # Scientific Data Packages Comparison.
+[![DOI](https://zenodo.org/badge/340211630.svg)](https://zenodo.org/badge/latestdoi/340211630)
+
 
 Repositório criado para realização de comparações de pacotes de visualização de dados numéricos na Web focado na integração entre diferentes recursos gráficos, científicos de liberdade para usuário.
 
